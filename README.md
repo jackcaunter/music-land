@@ -20,7 +20,7 @@ If you don't already have Python 3 installed, install it first.
   ```
 
 
-### 2. Get the project
+### 2. Get music-land
 
 If you haven't downloaded the project yet, you can either:
 
@@ -31,7 +31,7 @@ If you haven't downloaded the project yet, you can either:
 
 Or download the project as a ZIP from the repository page, then extract it.
 
-Once you have the project on your computer, open your terminal and cd into the project folder:
+Once you have music-land on your computer, open your terminal and cd into the project folder:
 
 ```
 cd music-land
