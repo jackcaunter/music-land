@@ -26,7 +26,7 @@ If you haven't downloaded the project yet, you can either:
 
 - **Clone this repository** (recommended if you're using Git):
 ```
-  git clone <repo-url>
+  git clone https://github.com/jackcaunter/music-land.git
 ```
 
 Or download the project as a ZIP from the repository page, then extract it.
