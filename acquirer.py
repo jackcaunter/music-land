@@ -3,8 +3,17 @@ import sys
 import tempfile
 from pathlib import Path
 
+from config_loader import CONFIG
+
 import yt_dlp
 
+
+
+# -----------------------------------------------------------------------------
+# Config variables
+# -----------------------------------------------------------------------------
+AUDIO_FORMAT_PREFERRED = CONFIG['AUDIO_FORMAT']
+BITRATE_PREFERRED = CONFIG['BITRATE']
 
 def song_to_url(artist, title):
     # Create search queries using the separate artist and title
@@ -140,8 +149,8 @@ def download_url(
         "postprocessors": [
             {
                 "key": "FFmpegExtractAudio",
-                "preferredcodec": "m4a",
-                "preferredquality": "224",
+                "preferredcodec": AUDIO_FORMAT_PREFERRED,
+                "preferredquality": BITRATE_PREFERRED,
             }
         ],
     }
