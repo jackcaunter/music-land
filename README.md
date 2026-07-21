@@ -20,7 +20,7 @@ If you don't already have Python 3 installed, install it first.
   ```
 
 
-### 2. Get music-land
+### 2. Download this project
 
 If you haven't downloaded the project yet, you can either:
 
@@ -37,7 +37,7 @@ Once you have music-land on your computer, open your terminal and cd into the pr
 cd music-land
 ```
 
-All the following steps happen inside this folder.
+All the following steps happen inside this folder. You are now in music land.
 
 ### 3. Create a virtual environment
 
