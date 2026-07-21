@@ -5,4 +5,4 @@ __pycache__
 outputs
 scratchpad
 NOTES.md
-config.local.py
+config_local.py
