@@ -1,6 +1,6 @@
-# Music Land 0.1
+# music land 0.1
 
-Non-algorithmic, audio-only music discovery from the command line.
+Command line utility for non-algorithmic, audio-only music discovery.
 
 ## Setup
 
