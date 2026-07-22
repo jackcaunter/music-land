@@ -107,7 +107,9 @@ def get_username_urls_from_artist(artist):
 
     artist_url = quote(artist.replace(" ", "+"))
 
-    url = f"https://www.last.fm/music/{artist_url}/+listeners"
+    page = random.randint(1, 9)
+
+    url = f"https://www.last.fm/music/{artist_url}/+listeners?page={page}"
     print(f"Trying URL: {url}")
 
     response = requests.get(
